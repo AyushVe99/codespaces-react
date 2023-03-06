@@ -1,27 +1,16 @@
 import './App.css';
-
+// import EventHandle from './Components/EventHandle';
+// import HidenShow from './Components/HidenShow';
+// import Props from './Components/Props';
+// import State from './Components/State'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
+      <h1>Hello, Ayush</h1>
+      {/* <Props text={{name:"Ayush"}}/> */}
+      {/* <State/> */}
+      {/* <HidenShow/> */}
+      {/* <EventHandle/> */}
     </div>
   );
 }
